@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp">
+
+    <!-- カテゴリ -->
+    <TextView
+        android:id="@+id/text05Kategorys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- タイトル：商品名 -->
+        <TextView
+            android:id="@+id/text05TitleSyohinmei"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="right"
+            android:text="@string/syohinmei"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- データ表示用：商品名 -->
+        <TextView
+            android:id="@+id/text05Syohinmei"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <!-- タイトル：金額 -->
+        <TextView
+            android:id="@+id/text05TitleKingaku"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="right"
+            android:text="@string/kingaku"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- データ表示用：金額 -->
+        <TextView
+            android:id="@+id/text05Kingaku"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <!-- タイトル：日付 -->
+        <TextView
+            android:id="@+id/text05Day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <!-- データ表示用：日付 -->
+        <TextView
+            android:id="@+id/text05TitleDay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="left"
+            android:text="@string/day"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

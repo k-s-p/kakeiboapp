@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Kakeibokun</string>
+    <string name="toroku">登録</string>
+    <string name="msg1">選択してください</string>
+    <string name="dlg_btn">閉じる</string>
+    <string name="syunyu">収入</string>
+    <string name="sisyutu">支出</string>
+    <string name="nonkate">なし</string>
+    <string name="settei">設定</string>
+    <string name="date">日付</string>
+    <string name="tag">カテゴリ</string>
+    <string name="uchiwake">商品名を入力</string>
+    <string name="skip">スキップ</string>
+    <string name="kakutei">確定</string>
+    <string name="cancel">キャンセル</string>
+
+    <!--支出リストビューに関するもの-->
+    <string name="day">日</string>
+    <string name="en">円</string>
+    <string name="syohinmei">商品名:</string>
+    <string name="kingaku">金額:</string>
+
+</resources>
